@@ -52,6 +52,7 @@ body {
 
 
 
+
 body.menu-open {
   overflow: hidden;
 }
@@ -112,6 +113,11 @@ svg {
   white-space: nowrap;
   border: 0;
 }
+
+section[id] {
+  scroll-margin-top: 90px;
+}
+
 
 .site-header {
   position: sticky;
@@ -338,6 +344,7 @@ svg {
 }
 
 .card {
+  margin: 4px;
   padding: 2.5rem;
   margin-top: 2px;
 }
